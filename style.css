@@ -1,0 +1,113 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.header{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    padding-left: 5%;
+    padding-right: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 20%;
+    height: 50px;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-img{
+    height: 50px;
+}
+
+.search{
+    width: 30%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: normal;
+}
+
+.search-bar{
+    width: 80%;
+    height: 40px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.search-box{
+    width: 80%;
+    height: 40px;
+    font-size: 18px;
+    text-indent: 20px;
+    border: none;
+    outline: none;
+}
+
+.search-icon{
+    height: 30px;
+}
+
+.movies{
+    width: 100%;
+    padding: 50px 5%;
+    background-color: gray;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 6.66%;
+    row-gap: 20px;
+}
+
+.movie{
+    width: 20%;
+    height: 450px;
+    background-color: red;
+    overflow: hidden;
+    border-radius: 10px;
+    position: relative;
+}
+
+.overly{
+    width: 100%;
+    height:100%;
+    background-color: black;
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.overly:hover{
+    opacity: 1;
+}
+
+.video{
+    width: 100%;
+    height: 50%;
+    /* background-color: yellow; */
+}
+
+.details{
+    width: 100%;
+    height: 50%;
+    /* background-color: blue; */
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.poster{
+    width:100%;
+    height: 100%;
+}
