@@ -94,10 +94,6 @@ displayMovies(movies);
 
 
 
-
-
-
-
 // let movie = document.createElement("div");
 //     movie.classList.add("movie");
 
